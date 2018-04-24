@@ -1,3 +1,4 @@
+
 <?php
 $wambua_corrupted_sample= "N3AmE,JO9b TitlE32s,Department,Full or= Pa+rt-Time,Salary or Hourly,Typi4>/>cal Hours,Annual Sal>ary,Hou)(rly Rate
 A%5A%ROo4N,  M YREFFEJ,SERGEA%NT,POoLICE,F,SA%lA%ry,,&euro;10144290,
@@ -109,8 +110,8 @@ var_dump( $some_random_fix);
   doing some quick maffs, if we have 8 columns and 264 items in the array,
   we shall need a total of 33 rows (headers included)
 */
-$rows = 33; // amout of tr
-$cols = 8;// amjount of td
+$rows = 10; // amout of tr
+$cols = 10;// amjount of td
 $array[]=0;
 
 function drawTable($rows, $cols,$array){
